@@ -5,7 +5,7 @@ const output = document.querySelector("#output");
 function claculatesum(ang1,ang2,ang3)
 {
   var sum = ang1+ang2+ang3;
-  console.log("The sum is "+sum);
+ 
 
   checkifTriangle(sum);
 }
@@ -19,8 +19,7 @@ function checkifTriangle(s){
 }
 
 submitbtn.addEventListener("click", function clickHandler(){
-    console.log("Button clicked ");
-    console.log(angles[0].value , angles[1].value  , angles[2].value);
+  
     claculatesum(Number(angles[0].value),Number(angles[1].value),Number(angles[2].value));
     
 })
