@@ -1,11 +1,19 @@
-const val1 = document.querySelector("#val1");
+const inp1 = document.querySelector("#inp1s");
+const inp2 = document.querySelector("#inp2s");
+const out = document.querySelector("#output");
 
 const submitbtn = document.querySelector("#submitbtn");
 
 submitbtn.addEventListener("click",function clcikHandler(){
     
-   // calculateHypotenuse();
-     console.log(val1);
-   console.log("Button clicked");
+    calculateHypotenuse();
+    
     
 })
+
+function calculateHypotenuse(){
+    var hypo = Math.sqrt(inp1.value**2 + inp2.value**2);
+    
+    out.innerText = "The hypotenuse is " +hypo;
+  
+}
