@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
 .inline{
     display: inline;
     padding: 2rem;
@@ -26,6 +29,7 @@
 body{
     text-align: center;
     background-color: var(--lightyellow);
+    font-family: 'Pangolin', cursive;
 }
 
 .heading{
