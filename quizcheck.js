@@ -10,7 +10,7 @@ submitbtn.addEventListener("click", function clickHandler() {
 
 const output = document.querySelector("#output");
 
-const rightAnswers = ["90", "Rightangled","Three","Equi","85","zero"];
+const rightAnswers = ["90", "Rightangled","Three","Equi","85","zero","2"];
 
 function checkScore() {
     var score = 0;
