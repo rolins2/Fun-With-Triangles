@@ -39,10 +39,9 @@ function printScore(s) {
     if (s === 0) {
         output.innerText = "Your score is " + s + " you got both the questions wrong";
         
-    } else if (s === 1) {
-        output.innerText = "Your score is " + s + " you got one question right";
+    } 
 
-    } else {
+    else {
        
 
         output.innerText = "Your score is " + s + " you got "  +s +   " questions right";
