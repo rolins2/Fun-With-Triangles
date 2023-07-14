@@ -1,0 +1,48 @@
+.inline{
+    display: inline;
+    padding: 2rem;
+}
+:root{
+    --yellows : #fbbf24;
+    --browns : #78350f;
+    --lightyellow : #fef08a;
+}
+
+.linkstyle{
+    text-decoration: none;
+}
+
+.navigation{
+    background-color: var(--yellows);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.link-active{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color:darkblue;
+}
+body{
+    text-align: center;
+    background-color: var(--lightyellow);
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: darkslategray;
+    text-align: left;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.quests{
+    padding: 0.7rem;
+    
+
+}
